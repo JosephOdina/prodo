@@ -1,0 +1,30 @@
+{
+  "name": "ProDo",
+  "version": "1.0.0",
+  "description": "A procrastination app for losers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [
+    "MEAN",
+    "MVC"
+  ],
+
+  "author": "Joseph Odina <josephodina@gmail.com> (http://www.twitter.com/@madeofhuman)",
+  "license": "ISC",
+  "homepage": "http://prodo.io",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.0.6",
+    "express": "^4.10.7",
+    "express-session": "^1.10.1",
+    "mongoose": "^3.8.21",
+    "passport": "^0.2.1",
+    "passport-facebook": "^1.0.3",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.2"
+  }
+}
